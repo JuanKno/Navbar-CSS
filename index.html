@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Logo.ico" type="image/x-icon">
     <title>NavbarExample</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
@@ -15,11 +17,11 @@
         </div>
         <ul>
             <li>
-                <a class="active" href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">portafolio</a>
-                <a href="#">Contacts</a>
+                <a href="#" class="active" id="home" onclick="selectPage(this.id)">Home</a>
+                <a href="#" class="" id="about" onclick="selectPage(this.id)">About</a>
+                <a href="#" class="" id="services" onclick="selectPage(this.id)">Services</a>
+                <a href="#" class="" id="portafolio" onclick="selectPage(this.id)">portafolio</a>
+                <a href="#" class="" id="contacts" onclick="selectPage(this.id)">Contacts</a>
             </li>
         </ul>
     </nav>
@@ -55,6 +57,8 @@
             voluptatum ex harum saepe amet neque eveniet aspernatur ipsa et atque sequi est mollitia sed deleniti! Cum consectetur beatae laboriosam sint minima, harum esse rem molestias quisquam quidem quasi ipsam omnis magni tempore quo voluptatum doloremque
             ea deleniti.</p>
     </section>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
