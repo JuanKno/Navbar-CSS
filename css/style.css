@@ -82,21 +82,21 @@ nav ul li a:hover {
 section.sec1 {
     width: 100%;
     height: 100vh;
-    background: url("photo.jpg");
+    background: url("/img/photo.jpg");
     background-size: cover;
 }
 
 section.sec2 {
     width: 100%;
     height: 100vh;
-    background: url("photo2.jpg");
+    background: url("/img/photo2.jpg");
     background-size: cover;
 }
 
 section.sec3 {
     width: 100%;
     height: 100vh;
-    background: url("photo3.jpg");
+    background: url("/img/photo3.jpg");
     background-size: cover;
 }
 
