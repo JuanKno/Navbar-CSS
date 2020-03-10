@@ -111,3 +111,35 @@ section.content p {
     padding: 0;
     font-size: 1.1em;
 }
+
+@media screen and (max-width: 800px){
+
+    nav .logo img {
+        width: 35px;
+        height: 30px;      
+    }
+    
+    nav.black .logo img {
+        width: 25px;
+        height: 20px;
+    
+    }
+
+    nav ul li a {        
+        padding: 5px 20px;
+        transition: .5s;
+        line-height: 60px;
+        padding: 7px 1px;
+        font-size: 14px;
+    }
+    
+    nav.black ul li a {
+        
+        padding: 7px 1px;
+        transition: .5s;
+        line-height: 60px;
+        font-size: 14px;
+    }
+    
+
+}
