@@ -6,7 +6,7 @@ and CSS native.
 
 
 ## Features
--.[Fixed positioned, always visible navigation bar].
+- Fixed positioned, always visible navigati
 Uses basic Jquery
 Smooth animated scrolling
 Removes 300ms tap delay
