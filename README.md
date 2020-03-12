@@ -1,4 +1,4 @@
-#navbar-scroll-animation
+# navbar-scroll-animation
 
 
 navbar with animation when scrolling
