@@ -6,3 +6,9 @@ $(window).on('scroll', () => {
         $('nav').removeClass('black');
     }
 });
+
+$(document).ready(() => {
+    $(".menu h4").click(() => {
+        $("nav ul").toggleClass("active");
+    })
+});
