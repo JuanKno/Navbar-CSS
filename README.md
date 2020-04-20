@@ -18,7 +18,7 @@ and native CSS.
 - Tapping a link changes the URL, so you can still copy/paste it and link to different sections
 - Built progressive enhancement in mind
 
-![alt text](https://github.com/JuanKno/firstAppNode/blob/master/src/public/images/nodeforstapp.png)
+![Responsive navbar and Scroll animation](https://github.com/JuanKno/navbar-scroll-animation/blob/master/img/navbar-responsive.gif)
 
 
 ## License
